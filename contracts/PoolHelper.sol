@@ -13,25 +13,33 @@ pragma solidity ^0.5.10;
 
 contract Ownable {
     address private _owner;
+    address private _payoutWallet;  // Added to prevent payouts interfering with minting requests. 
 
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
 
     constructor () internal {
         _owner = msg.sender;
+        _payoutWallet = msg.sender;
+
         emit OwnershipTransferred(address(0), _owner);
     }
 
     function owner() public view returns (address) {
         return _owner;
     }
-
-    modifier onlyOwner() {
-        require(isOwner(), "Ownable: caller is not the owner");
-        _;
+    
+    function payoutWallet() public view returns (address) {
+        return _payoutWallet;
     }
 
-    function isOwner() public view returns (bool) {
-        return msg.sender == _owner;
+    modifier onlyOwner() {
+        require(msg.sender == _owner, "Ownable: caller is not the owner, minter, or payer.");
+        _;
+    }
+    
+    modifier onlyPayoutWallet() {
+        require(msg.sender == _owner || msg.sender == _payoutWallet, "Ownable: caller is not the owner or payer.");
+        _;
     }
 
     function renounceOwnership() public onlyOwner {
@@ -42,7 +50,11 @@ contract Ownable {
     function transferOwnership(address newOwner) public onlyOwner {
         _transferOwnership(newOwner);
     }
-
+    
+    function setPayoutWallet(address newAddress) public onlyOwner {
+        _payoutWallet = newAddress;
+    }
+    
     function _transferOwnership(address newOwner) internal {
         require(newOwner != address(0), "Ownable: new owner is the zero address");
         emit OwnershipTransferred(_owner, newOwner);
@@ -75,12 +87,11 @@ contract ERC918Interface {
 }
 
 /*
-The owner (or anyone) will deposit tokens in here
-The owner calls the multisend method to send out payments
+The mintingWallet will proxy mint requests to be credited to the contract address.
+The payoutWallet will call the multisend method to send out payments.
 */
-contract PoolHelper is Ownable {
-    using SafeMath for uint;
 
+contract PoolHelper is Ownable {
     string public name;
     address public mintableToken;
     mapping(bytes32 => bool) successfulPayments;
@@ -122,8 +133,8 @@ contract PoolHelper is Ownable {
     }
     
     //send tokens out
-    function send(address _tokenAddr, bytes32 oaymentId, address dest, uint value)
-    public onlyOwner
+    function send(address _tokenAddr, bytes32 paymentId, address dest, uint value)
+    public onlyPayoutWallet
     returns (bool)
     {
         require(successfulPayments[paymentId] != true, "Payment ID already exists and was successful");
@@ -134,7 +145,7 @@ contract PoolHelper is Ownable {
 
     //batch send tokens
     function multisend(address _tokenAddr, bytes32 paymentId, address[] memory dests, uint256[] memory values)
-    public onlyOwner
+    public onlyPayoutWallet
     returns (uint256)
     {
         require(dests.length > 0, "Must have more than 1 destination address");
@@ -152,3 +163,4 @@ contract PoolHelper is Ownable {
         return (i);
     }
 }
+
