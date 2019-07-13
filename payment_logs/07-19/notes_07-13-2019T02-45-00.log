@@ -1,0 +1,67 @@
+┬ ┬┌─┐┌─┐┬ ┬┌┬┐┌─┐┌┐ ┬  ┌─┐┌─┐
+├─┤├─┤└─┐├─┤ │ ├─┤├┴┐│  ├┤ └─┐
+┴ ┴┴ ┴└─┘┴ ┴ ┴ ┴ ┴└─┘┴─┘└─┘└─┘
+BitcoinSoV Mining Pool Summary
+──────────────────────────────
+Date: 07/12/2019 21:00 UTC
+Type: Notes
+──────────────────────────────
+
+We have officialy launched the BitcoinSoV (BSOV) Mining Pool. This docment is to outline the process. Here are some basic notes on the funds available during start from the beta. 
+
+Current fees: 10% Pool Operations, 5% Community Fund. These may change once enough data is available to determine cost. 
+
+
+┌────────────────────────────┐
+│    Beta Testing Payouts    │
+└────────────────────────────┘
+
+The pool was open for beta testing for those with CPU's and low powered GPU's to start. During that time the fees were dynamically adjusted to build funds and inventivize solo mining. 
+Some of the funds were used to purchase gas for the pool going live, others went back to the miners, and some have been shipped to the new wallets and will be used in the future. 
+
+Of the collected fees during Beta, we payed the following:
+
+2,500 BSOV - 100 BSOV airdrop per Miner, 25 Miners.
+2,700 BSOV - Free extra payment of single 4 hour block.
+2,500 BSOV - Moved to the BitcoinSoV community Fund. 
+1,000 BSOV - Given to the miner of the first official block for the pool.
+
+
+┌────────────────────────────┐
+│   Addresses and Balances   │
+└────────────────────────────┘
+
+Pool Operations: 0xF9AA1897E5A7d2929E5CB2a1FFAeE77DE809e901
+0.095429162175906732 Ether
+10,357.59552764 BSOV
+
+Pool Minting: 0xabb58aF7E64EB324895CB1c15C1865Bb125e953F
+0.3 Ether
+0 BSOV
+
+Pool Payouts: 0xde0d47fA92b4d616B100f5Dd027FC91704b24B73
+0.1 Ether
+0 BSOV
+
+Pool Community Fund: 0xE83527fe86D975e7D4930928aA62227395e2AC09
+0 Ether
+2.97 BSOV 
+
+Pool Funding & Exchange: 0x7cEd79863cac691028EeE8D4d28ec6Aa2C736D0D
+0.00784687 Ether
+8.14852624 BSOV
+-> 3382.969 BSOV (ForkDelta)
+
+Total in possessions of Pool:
+Ether: 0.503276032175907
+BSOV: 13751.68305388
+
+
+┌────────────────────────────┐
+│      Links and Things      │
+└────────────────────────────┘
+
+Token: https://www.btcsov.com
+Pool: https://bsov-pool.hashtables.net
+Stats: https://btcsovstats.github.io/BSOV-Stats/
+Telegram: https://t.me/BitcoinSoVCommunity
