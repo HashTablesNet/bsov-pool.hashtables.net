@@ -1,4 +1,4 @@
-Starting payment batch @ Sat Jul 13 2019 02:00:02 GMT+0000 (UTC)
+Starting payment batch @ Sat Jul 13 2019 02:00:02 GMT+0000 (UTC) ** Resent (Jul-13-2019 02:12:59 AM +UTC) ** 
  
 Found the following miner statistics: 
  
@@ -31,7 +31,7 @@ Building Transaction...
 Token Address:		0x26946ada5ecb57f3a1f91605050ce45c482c9eb1
 From Address:		0xabb58aF7E64EB324895CB1c15C1865Bb125e953F
 Multisend Address:	0x5c52ee4cde4604c4df27ca283b90f9e722e875db
-Payment ID:		0x13d4a2ca0da4746e38e02c412f38c3d349aff0d72943fac8f5645fe43efb2781
+Payment ID:		0x732dffee11f632a80c4534a27c5a4281744817d210aa56fa81a42cc8dbbaf17d
 Nonce: 			54
 Queued Payments:
 0xb80fa7fee4bd60a03d36b86625b6c18641188c63, 53.26365769 BSOV

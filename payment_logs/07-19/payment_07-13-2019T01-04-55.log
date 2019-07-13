@@ -1,4 +1,4 @@
-Starting payment batch @ Sat Jul 13 2019 01:04:56 GMT+0000 (UTC)
+Starting payment batch @ Sat Jul 13 2019 01:04:56 GMT+0000 (UTC) ** Resent (Jul-13-2019 02:25:19 AM +UTC) **
  
 Found the following miner statistics: 
  
@@ -60,9 +60,9 @@ TX Options:  { nonce: '0x19',
 Transaction Built, Signing & Broadcasting Now
  
 Payment Sent!
-Tx Hash: 0xe5edfeaa5b05b22cf83ff12c8e7cc64c65e77d819d041f2bd5312ad2e11d6fa8
+Tx Hash: 0x2dbae419588a3be617a1927051fc3429b643298fd1a9f4c16b681c58dc487b2d
  
-Link: https://etherscan.io/tx/0xe5edfeaa5b05b22cf83ff12c8e7cc64c65e77d819d041f2bd5312ad2e11d6fa8
+Link: https://etherscan.io/tx/0x2dbae419588a3be617a1927051fc3429b643298fd1a9f4c16b681c58dc487b2d
 Paid: 0xb80fa7fee4bd60a03d36b86625b6c18641188c63, Value: 79.59418894 BSOV, Miner Total: 79.59418894 BSOV
 Paid: 0xb1b4667df6a406a51fc04e4e9aa0442de3d0119c, Value: 42.32998211 BSOV, Miner Total: 42.32998211 BSOV
 Paid: 0xdf4f2177fecc2cfaf3cedfd6abed283d137b4174, Value: 100.51251536 BSOV, Miner Total: 100.51251536 BSOV
