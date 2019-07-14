@@ -1,0 +1,72 @@
+┬ ┬┌─┐┌─┐┬ ┬┌┬┐┌─┐┌┐ ┬  ┌─┐┌─┐
+├─┤├─┤└─┐├─┤ │ ├─┤├┴┐│  ├┤ └─┐
+┴ ┴┴ ┴└─┘┴ ┴ ┴ ┴ ┴└─┘┴─┘└─┘└─┘
+BitcoinSoV Mining Pool Summary
+──────────────────────────────
+Date: 07/13/2019 20:00 ET
+Type: Notes
+──────────────────────────────
+
+
+┌────────────────────────────┐
+│   First Day of Operation   │
+└────────────────────────────┘
+
+The pool was open for 24 hours. The cost of gas is in line with the current price on forkdelta so long as we continue to pay 1.2 gwei. 
+
+If the price of gas stays low, we should consider halving the pool fee from 10% to 5%.
+
+Mined Blocks: 600
+Tokens Mined: 30,000 BSOV
+Pool Fee: 3,000 BSOV
+Community Fee: 1,500 BSOV
+Miners Paid: 25,500 BSOV
+
+Gas Spent Minting: 0.1186280612 ETH
+Gas Spent Paying: 0.0126046004 ETH
+--------------- 
+Total Gas Spent: 0.1312326616 ETH
+Pool Cost per Token: 0.000043744220533 ETH
+
+
+┌────────────────────────────┐
+│   Addresses and Balances   │
+└────────────────────────────┘
+
+Pool Operations: 0xF9AA1897E5A7d2929E5CB2a1FFAeE77DE809e901
+0.095429162175906732 Ether
+10,357.59552764 BSOV
+
+Pool Minting: 0xabb58aF7E64EB324895CB1c15C1865Bb125e953F
+0.1813719388 Ether
+0 BSOV
+
+Pool Payouts: 0xde0d47fA92b4d616B100f5Dd027FC91704b24B73
+0.0873953996 Ether
+0 BSOV
+
+Pool Community Fund: 0xE83527fe86D975e7D4930928aA62227395e2AC09
+0 Ether
+2.97 BSOV 
+
+Pool Funding & Exchange: 0x7cEd79863cac691028EeE8D4d28ec6Aa2C736D0D
+0.00784687 Ether
+8.14852624 BSOV
+-> 3382.969 BSOV (ForkDelta)
+
+Minting & Payment Contract: 0x7c5b6a029627BBB251710b8b6e86F606b5aA7D81
+4,500 BSOV (Pool and Community funds not paid out yet)
+
+Total in possessions of Pool:
+Ether: 0.372043370575907
+BSOV: 18251.68305388
+
+
+┌────────────────────────────┐
+│      Links and Things      │
+└────────────────────────────┘
+
+Token: https://www.btcsov.com
+Pool: https://bsov-pool.hashtables.net
+Stats: https://btcsovstats.github.io/BSOV-Stats/
+Telegram: https://t.me/BitcoinSoVCommunity
