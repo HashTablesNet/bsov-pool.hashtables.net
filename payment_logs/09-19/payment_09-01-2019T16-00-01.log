@@ -233,9 +233,9 @@ TX Options:  { nonce: '0x12d',
 Transaction Built, Signing & Broadcasting Now
  
 Payment Sent!
-Tx Hash: 0x647ecbb66c081030329761eecc0779a44bf26090346870b9682bc2a4dbd7c19f
+Tx Hash: 0xd6d9160aa9787689b04231aa33ecfcbbbcd5c3634b02f409d4d7ff6bae63d59b 
  
-Link: https://etherscan.io/tx/0x647ecbb66c081030329761eecc0779a44bf26090346870b9682bc2a4dbd7c19f
+Link: https://etherscan.io/tx/0xd6d9160aa9787689b04231aa33ecfcbbbcd5c3634b02f409d4d7ff6bae63d59b
 Paid: 0xa8b8ea4c083890833f24817b4657888431486444, Value: 8.23307761 BSOV, Miner Total: 7700.7806548 BSOV
 Paid: 0xbc11f671a0beff197cfa153cbbfcaf5b59d0fbf7, Value: 14.17550609 BSOV, Miner Total: 15103.91457591 BSOV
 Paid: 0x3757e81f5709c08fb073047a6b28a367b110c727, Value: 10.78985202 BSOV, Miner Total: 7505.74096456 BSOV
